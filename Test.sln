@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{20FFA9B7-6ED6-42B6-B34A-F886742E6682}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedProject", "SharedProject\SharedProject.shproj", "{DE9CF769-C210-4262-B612-164469266AA0}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedProject\SharedProject.projitems*{de9cf769-c210-4262-b612-164469266aa0}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20FFA9B7-6ED6-42B6-B34A-F886742E6682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20FFA9B7-6ED6-42B6-B34A-F886742E6682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20FFA9B7-6ED6-42B6-B34A-F886742E6682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20FFA9B7-6ED6-42B6-B34A-F886742E6682}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEB2A0B8-E8EF-4E3D-83C0-22C54F3EF64A}
+	EndGlobalSection
+EndGlobal
